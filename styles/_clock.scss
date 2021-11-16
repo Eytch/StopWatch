@@ -1,0 +1,71 @@
+.clock {
+  height: 40vh;
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+  justify-content: space-evenly;
+  text-align: center;
+  font-weight: bold;
+  font-size: 10.625rem;
+  line-height: 15.9375rem;
+  color: #ffffff;
+  button {
+    opacity: 0%;
+    margin: auto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.5rem;
+    line-height: 2.25rem;
+    text-align: center;
+    color: #f9f9f9;
+    background-color: transparent;
+    border: none;
+    // cursor: pointer;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .clock {
+    font-size: 6rem;
+    height: 40vh;
+    // background-color: brown;
+    justify-content: space-evenly;
+    line-height: 6rem;
+
+    button {
+      font-size: 1rem;
+      margin-top: -1px;
+      line-height: 3rem;
+    }
+  }
+}
+@media only screen and (max-width: 700px) {
+  .clock {
+    font-size: 5rem;
+    height: 40vh;
+    // background-color: brown;
+    justify-content: space-evenly;
+    line-height: 6rem;
+
+    button {
+      font-size: 1rem;
+      margin-top: -1px;
+      line-height: 3rem;
+    }
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .clock {
+    font-size: 4rem;
+    height: 40vh;
+    justify-content: space-evenly;
+    line-height: 6rem;
+
+    button {
+      font-size: 1rem;
+      margin-top: -1px;
+      line-height: 3rem;
+    }
+  }
+}

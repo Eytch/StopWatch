@@ -1,0 +1,16 @@
+nav {
+  height: 20vh;
+  width: 100vw;
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  h3 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 2rem;
+    line-height: 3rem;
+    text-align: center;
+    color: #515151;
+  }
+}
